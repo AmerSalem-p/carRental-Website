@@ -1,0 +1,225 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+
+
+/* Navigation-Part*/
+nav{
+  background-color: #00008B;
+  list-style-type: none;
+  padding: 30px 0 30px 20px;
+}
+ul{
+  list-style-type: none;
+  display:flex;
+
+}
+
+
+nav h2{
+  margin: 0 50px 0 10px ;
+  font-size: 2em;
+  color: white;
+  float: left;
+}
+
+nav a{
+
+  font: bold 15px Arial;
+  text-decoration: none;
+  background-color: #00008B;
+  color: #FFFFFF;
+  padding:10px 6px 10px 6px;
+  border: 1px solid #00008B;
+
+}
+
+.sign-in a{
+  background-color: white;
+  color: blue;
+
+}
+
+nav a:hover{
+  filter: brightness(90%);
+  background-color: #00008B;
+}
+
+.sign-in a:hover{
+  background-color: #B0E0E6;
+}
+
+nav .list-item{
+  margin-left: 20px;
+}
+.Register a{
+  background-color: white;
+  color: blue;
+}
+
+.sign a{
+  background-color: white;
+  color: blue;
+
+}
+
+nav .Register{
+margin-left: 50%;
+}
+nav .sign-in{
+margin-left: 50%;
+}
+.Register a:hover{
+  background-color: #B0E0E6;
+}
+.sign a:hover{
+  background-color: #B0E0E6;
+}
+/* Section1 Part */
+
+.section1{
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.section1 h1{
+  font-family:cursive;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 3.5em;
+  width: 30%;
+  line-height: 1.5;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.section1 div{
+  padding:200px 0 200px 12%;
+}
+
+
+.button{
+
+  font: bold 20px Arial;
+  text-decoration: none;
+  color: #FFFFFF;
+  padding:10px 10px 10px 10px;
+  border: 1px solid #FFFFFF;
+
+
+}
+.button:hover{
+  background-color: white;
+  color: black;
+}
+.feature-button{
+  margin-left: 25px;
+
+}
+
+
+/* ..........
+...........
+About.html
+ */
+
+/* Agency-Section */
+
+
+.agency{
+  text-align: center;
+  padding: 2%;
+}
+
+.agency h1{
+color: #00008B;
+font-size: 2.5rem;
+font-style:cursive;
+
+}
+
+.agency p{
+  font-size: 1rem;
+  padding: 1%;
+}
+
+/* City-section */
+.city{
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.city p{
+  color: white;
+  padding: 15%;
+  line-height: 3;
+}
+
+/*
+business
+
+ */
+
+.business{
+  text-align: center;
+}
+
+.business h1{
+  font-size: 2.5rem;
+  color: #00008B;
+  font-family: cursive;
+}
+
+
+
+
+
+/* Footer */
+#footer{
+  background-color:#00008B;
+  text-align: center;
+  padding: 2%;
+}
+
+.footerIcon{
+  margin:20px 10px;
+}
+
+#footer a{
+  font: bold 15px Arial;
+  color: white;
+  text-decoration: none;
+
+}
+
+#footer a:hover{
+  background-color: white;
+  color: black;
+  border: 1px solid #FFFFFF;
+
+
+}
+
+#footer i{
+  color: white;
+}
+
+#footer p{
+  margin-top: 2%;
+  color: white;
+}
+
+#footer span{
+  font: bold 15px Arial;
+  color: white;
+  line-height: 2;
+  margin-right: 11%;
+}

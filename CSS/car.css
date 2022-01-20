@@ -1,0 +1,272 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+
+
+/* Navigation-Part*/
+nav{
+  background-color: #00008B;
+  list-style-type: none;
+  padding: 30px 0 30px 20px;
+}
+ul{
+  list-style-type: none;
+  display:flex;
+
+}
+
+
+nav h2{
+  margin: 0 50px 0 10px ;
+  font-size: 2em;
+  color: white;
+  float: left;
+}
+
+nav a{
+
+  font: bold 15px Arial;
+  text-decoration: none;
+  background-color: #00008B;
+  color: #FFFFFF;
+  padding:10px 6px 10px 6px;
+  border: 1px solid #00008B;
+
+}
+
+.sign-in a{
+  background-color: white;
+  color: blue;
+
+}
+.Register a{
+  background-color: white;
+  color: blue;
+}
+
+.sign a{
+  background-color: white;
+  color: blue;
+
+}
+.Register a:hover{
+  background-color: #B0E0E6;
+}
+.sign a:hover{
+  background-color: #B0E0E6;
+}
+
+nav a:hover{
+  filter: brightness(90%);
+  background-color: #00008B;
+}
+
+.sign-in a:hover{
+  background-color: #B0E0E6;
+}
+
+nav .list-item{
+  margin-left: 20px;
+}
+
+nav .Register{
+margin-left: 50%;
+}
+nav .sign-in{
+margin-left: 50%;
+}
+
+/*Table */
+
+legend {
+   background-color: #00008B ;
+   color: white;
+   text-align: center;
+   width: 90%;
+   padding: 5px 0;
+
+}
+fieldset {
+   margin: 1em;
+   background-color: #F5F5F5;
+   border-color: #00008B;
+   border-width:2px;
+}
+div#searchBox{
+margin: 0.25em 1.5em;
+background-color: #E0E0E0;
+border: 1pt solid #616161;
+}
+
+div#searchBox {
+  margin-top: 1em;
+  padding: 15px 0 15px 10px;
+}
+#searchBox input[type=text]{
+  width: 300px;
+}
+#searchBox select{
+padding: 5px;
+border-radius: 5px;
+}
+.button{
+  display: flex;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+.renting_button{
+  margin-left: 5px;
+}
+div#car-list {
+  margin-top: 1em;
+  background-color: #EEEEEE;
+
+}
+
+#car-list table{
+  border-collapse: collapse;
+  width: 90%;
+  margin-left: 5%;
+}
+
+table{
+  margin: 10px;
+}
+
+tr{
+border-bottom: 1px solid black;
+}
+
+#car-list .image{
+border: 1px solid #000;
+padding: 1px;
+}
+td{
+  font-size: 1.2em;
+}
+.brand-th{
+  text-align: left;
+  padding-left: 20px;
+}
+
+.brand{
+padding-left: 90px;
+}
+.model{
+  padding-left: 80px;
+}
+.year{
+  padding-left: 40px;
+}
+
+.price{
+  padding-left: 40px;
+}
+.number{
+  padding-left: 50px;
+}
+.button{
+  padding-left: 120px;
+}
+
+td {
+  padding-left: 120px;
+}
+
+#car-list button{
+
+  background-color: #00008B;
+  color: white;
+  padding:10px 6px 10px 6px;
+  width: 80px;
+
+
+}
+
+
+#car-list button:hover{
+  background-color: white;
+  color: black;
+}
+
+
+ .image{
+  width: 64px;
+  height: 64px;
+  margin: 7px;
+}
+
+td:first-child{
+  padding-left:7px;
+  padding-right:0;
+}
+
+tr:last-child{
+  border-bottom:0px;
+}
+
+
+div .headings{
+  background-color: lightgrey;
+
+
+}
+
+
+
+table thead {
+   background-color: #00008B ;
+
+}
+
+caption {
+  color: white;
+   background-color: #00008B;
+   padding: 5px;
+   font-size: 17px;
+}
+
+
+/* Footer */
+#footer{
+  background-color:#00008B;
+  text-align: center;
+  padding: 2%;
+}
+
+.footerIcon{
+  margin:20px 10px;
+}
+
+#footer a{
+  font: bold 15px Arial;
+  color: white;
+  text-decoration: none;
+
+}
+
+#footer a:hover{
+  background-color: white;
+  color: black;
+  border: 1px solid #FFFFFF;
+
+
+}
+
+#footer i{
+  color: white;
+}
+
+#footer p{
+  margin-top: 2%;
+  color: white;
+}
+
+#footer span{
+  font: bold 15px Arial;
+  color: white;
+  line-height: 2;
+  margin-right: 11%;
+}

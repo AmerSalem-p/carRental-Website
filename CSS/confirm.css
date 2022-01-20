@@ -1,0 +1,20 @@
+h1{
+  color: #00008D;
+  font-family: cursive;
+}
+
+a{
+
+  font: bold 15px Arial;
+  text-decoration: none;
+  background-color: #FFFFFF;
+  color: #00008B;
+  padding:10px 6px 10px 6px;
+  border: 1px solid #00008B;
+
+}
+
+a:hover{
+  background-color: lightblue;
+
+}

@@ -1,0 +1,196 @@
+body{
+   text-align: center;
+   font: 14px sans-serif;
+   margin: 0px;
+   padding: 0px;
+
+}
+
+/* Navigation-Part*/
+nav{
+  background-color: #00008B;
+  list-style-type: none;
+  padding: 30px 0 30px 20px;
+}
+ul{
+  list-style-type: none;
+  display:flex;
+
+}
+
+
+nav h2{
+  margin: 0 50px 0 10px ;
+  font-size: 2em;
+  color: white;
+  float: left;
+}
+
+nav a{
+
+  font: bold 15px Arial;
+  text-decoration: none;
+  background-color: #00008B;
+  color: #FFFFFF;
+  padding:10px 6px 10px 6px;
+  border: 1px solid #00008B;
+
+}
+
+.sign-in a{
+  background-color: white;
+  color: blue;
+
+}
+
+nav a:hover{
+  filter: brightness(90%);
+  background-color: #00008B;
+}
+
+.sign-in a:hover{
+  background-color: #B0E0E6;
+}
+
+nav .list-item{
+  margin-left: 20px;
+}
+
+nav .Register{
+margin-left: 50%;
+}
+
+nav .sign-in{
+margin-left: 50%;
+}
+
+/* Sign */
+
+
+
+h2{
+  font-size: 2.5rem;
+  font-family: cursive;
+  color: #00008D;
+}
+.sign p{
+
+  font-family:sans-serif;
+}
+
+div input{
+  width: 300px;
+  height: 25px;
+}
+div{
+  margin-bottom: 2%;
+}
+
+.submit{
+  font-size: 1.2rem;
+  background-color:#1E90FF;
+  color: white;
+  width:6.5%;
+  height: 2%;
+
+}
+.reset{
+  font-size: 1.2rem;
+  background-color: grey;
+  color: white;
+  width:6.5%;
+  height: 2%;
+
+}
+
+.submit:hover{
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+.reset:hover{
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+p a{
+  text-decoration: none;
+}
+.radio{
+margin-left: 20%;
+margin-right: 20%;
+border: 2px solid black;
+background-color: #5735C4;
+padding: 5%;
+}
+.radio h1{
+  font-family: cursive;
+  color: white;
+}
+.radio label{
+  color: white;
+}
+.radio input{
+  width: 80px;
+  border: 0px;
+  height: 1.3em;
+  margin-bottom: 5px;
+}
+
+.confirm{
+  color: #00008B;
+  margin-top: 60px;
+  font-size: 1.5rem;
+}
+.confirm:hover{
+  background-color: #00008B;
+  color: white;
+}
+.details input{
+  width: 205px;
+  height: 25px;
+  margin-bottom: 20px;
+}
+
+/* Footer */
+#footer{
+  background-color:#00008B;
+  text-align: center;
+  padding: 2%;
+}
+
+.footerIcon{
+  margin:20px 10px;
+}
+
+#footer a{
+  font: bold 15px Arial;
+  color: white;
+  text-decoration: none;
+
+}
+
+#footer a:hover{
+  background-color: white;
+  color: black;
+  border: 1px solid #FFFFFF;
+
+
+}
+
+#footer i{
+  color: white;
+}
+
+#footer p{
+  margin-top: 2%;
+  color: white;
+}
+
+#footer span{
+  font: bold 15px Arial;
+  color: white;
+  line-height: 2;
+  margin-right: 11%;
+}
